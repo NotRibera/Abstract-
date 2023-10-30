@@ -1,0 +1,75 @@
+*{
+    font-family:'GT America Standard', sans-serif;
+    margin: 0px;
+}
+
+.div{
+    display: block;
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    background-color: #000000;
+    color: #fff;
+    height: 5.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav_items{
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    margin: 0 6.5rem;
+}
+
+.nav_logo{
+    display: flex;
+    align-items: center;
+    padding-right: 4rem;
+}
+
+.nav_button{
+    display: flex;  
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.request{
+    border-radius: 5px;
+    border-style: groove;
+    padding: 7px;
+    font-size: 15px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.sign-in{
+    border-radius: 5px;
+    border-style: none;
+    padding: 7px;
+    font-size: 15px;
+    margin: 5px;
+    background-color: #4C5FD5;
+    color: #fff;
+}
+
+.purple_container{
+    background-color: #dadbf1;
+    text-align: center;
+    padding-bottom: 20rem;
+    display: flex;
+}
+
+.white_container{
+    background-color: grey;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+}
